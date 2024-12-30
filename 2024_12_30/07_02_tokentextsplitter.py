@@ -21,8 +21,8 @@ topics = file.strip().split("\n\n")  # Topics are assumed to be separated by dou
 
 # Initialize the SpacyTextSplitter with the desired settings
 text_splitter = SpacyTextSplitter(
-    chunk_size=250,  # Adjusted chunk size
-    chunk_overlap=70  # Adjusted overlap
+    chunk_size = 250,  # Adjusted chunk size
+    chunk_overlap = 30  # Adjusted overlap
 )
 
 # Define a size threshold for adding separators
